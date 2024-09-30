@@ -1,0 +1,11 @@
+@keyframes spin3D {
+        from { transform: rotateY(0deg) }
+        to { transform: rotateY(360deg) }
+      }
+.spinhov3D{
+        width:150px;
+        animation-name: spin3D;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+      }

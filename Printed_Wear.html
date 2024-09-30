@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div>
+        <center>Welcome to our store</center>
+        <hr class = hr>
+    </div>
+    <div>
+        
+		<header class="header">
+			<a href="C:/Users/Lenovo/Downloads/Codes/HTML/Web%20D%20Project/Home_Page.html"><img src="1.png" class="logo"></a>
+			<img src="icon-removebg-preview.png" class="logo2">
+			<nav>
+				<ul>
+					<li><a href="C:/Users/Lenovo/Downloads/Codes/HTML/Web%20D%20Project/Home_Page.html">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+        <hr class = hr>
+    </div>
+    <title>Printed Wear</title>
+    <link rel="stylesheet" type="text/css" href="Collection.css">
+</head>
+<body style="color:white; background-color:black;">
+    <main>
+    <h1><center><font size = "7px">Printed Wear</font></center></h1>
+    <h2>Featured Collection</h2>
+    <div class="container">
+        <div class="product-tiles">
+            <div class="product-item" id="Product 1">
+                <img src="Micro Floral Printed Green Shirt.jpg">
+                <h3>Micro Floral Printed Green Shirt</h3>
+                <p>Rs. 1049.00</p>
+            </div>
+            <div class="product-item" id="Product 2">
+                <img src="Autumn Foliage White shirt.jpg">
+                <h3>Autumn Foliage White shirt</h3>
+                <p>Rs. 999.00</p>
+            </div>
+            <div class="product-item" id="Product 3">
+                <img src="Micro Floral Printed Blue Shirt.jpg">
+                <h3>Micro Floral Printed Blue Shirt</h3>
+                <p>Rs. 1049.00</p>
+            </div>
+            <div class="product-item" id="Product 4">
+                <img src="Equidistant Printed White shirt.jpg">
+                <h3>Equidistant Printed White shirt</h3>
+                <p>Rs. 999.00</p>
+            </div>
+            <div class="product-item" id="Product 5">
+                <img src="Destructive Print Olive Shirt.jpg">
+                <h3>Destructive Print Olive Shirt</h3>
+                <p>Rs. 949.00</p>
+            </div>
+            <div class="product-item" id="Product 6">
+                <img src="Illusion Print Olive Shirt.jpg">
+                <h3>Illusion Print Olive Shirt</h3>
+                <p>Rs. 1049.00</p>
+            </div>
+            <div class="product-item" id="Product 7">
+                <img src="Destructive Print Grey shirt.jpg">
+                <h3>Destructive Print Grey shirt</h3>
+                <p>Rs. 949.00</p>
+            </div>
+            <div class="product-item" id="Product 8">
+                <img src="Destructive Print Black Shirt.jpg">
+                <h3>Destructive Print Black Shirt</h3>
+                <p>Rs. 949.00</p>
+            </div>
+            <div class="product-item" id="Product 9">
+                <img src="Jingle Paisley Black Shirt.jpg">
+                <h3>Jingle Paisley Black Shirt</h3>
+                <p>Rs. 999.00</p>
+            </div>
+            <div class="product-item" id="Product 10">
+                <img src="Symmetrical Print Black Shirt.jpg">
+                <h3>Symmetrical Print Black Shirt</h3>
+                <p>Rs. 999.00</p>
+            </div>
+            <div class="product-item" id="Product 11">
+                <img src="Orthodox Black Shirt.jpg">
+                <h3>Orthodox Black Shirt</h3>
+                <p>Rs. 999.00</p>
+            </div>
+            <div class="product-item" id="Product 12">
+                <img src="Illusion Print Grey Shirt.jpg">
+                <h3>Illusion Print Grey Shirt</h3>
+                <p>Rs. 1049.00</p>
+            </div>
+        </div>
+        <div class="product-details">
+            <h2 id="product-name"></h2>
+            <img id="product-image" src="">
+            <p id="product-description"></p>
+            
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            </select>
+            <br>
+            <br>
+            <form>
+                <div  style ="text-align:center;"></div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+            </form>
+            <br>
+            <hr style="height:1px;border:none;color:rgb(255, 255, 255);background-color:#333;">
+            <button class="add-to-cart-button" id="add-to-cart-button">Add to Cart</button>
+            <hr style="height:1px;border:none;color:#333;background-color:#333;">
+            <a href="C:/Users/Lenovo/Downloads/Codes/HTML/Web%20D%20Project/Order_Page.html#"><button id="buy-now">Buy Now</button></a>
+            
+            
+            <br>
+            <hr class = hr>
+            <div class="panel">
+                <div class="panel-header" onclick="togglePanel()">Product Description<img src="Daco_4535933.png"></div>
+                <div class="panel-content">
+                    - Abstract Print
+                    <br>
+                    - Lucrative Design
+                    <br>
+                    - Standing Collar
+                    <br>
+                    - Curve Hem Design
+                </div>
+                <hr class = hr>
+            <div class="panel2">
+                <div class="panel-header" onclick="togglePanel2()">Material Description<img src="Daco_4535933.png"></div>
+                <div class="panel-content2">
+                    - 100% Cotton
+                  
+                </div>
+                <hr class = hr>
+            <div class="panel3">
+                <div class="panel-header" onclick="togglePanel3()">Dimensions<img src="Daco_4535933.png"></div>
+                <div class="panel-content3">
+                    <img src="Screenshot 2023-01-30 201642.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <hr class="hr">
+    <footer class="footer">
+        <div class="container2">
+            <div class="row1">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Hawkster</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="C:/Users/Lenovo/Downloads/Codes/HTML/Web%20D%20Project/Club_Wear.html">Club Wear</a></li>
+                        <li><a href="C:/Users/Lenovo/Downloads/Codes/HTML/Web%20D%20Project/Printed_Wear.html">Party Wear</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Important</h4>
+                    <ul>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">T&C</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><img src="Facebook.png"></a>
+                        <a href="https://twitter.com/"><img src="pngtree-twitter-social-media-round-icon-png-image_6315985.png"></a>
+                        <a href="https://www.instagram.com/"><img src="Insta.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="Collection.js"></script>
+</body>
+</html>

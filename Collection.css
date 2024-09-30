@@ -1,0 +1,270 @@
+/* Style the header */
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.logo {
+height:45px; 
+float:left;
+}
+
+.logo2 {
+height:60px; 
+float:right;
+padding-right: 3%;
+}
+/* Style the header title */
+header h1 {
+margin: 0;
+font-size: 35px;
+font-weight: bold;
+}
+
+/* Style the navigation menu */
+header nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 15%;
+}
+
+/* Style the navigation links */
+header nav ul li {
+display: inline-block;
+margin-right: 25px;
+align-items: center;
+}
+
+header nav ul li:last-child {
+margin-right: 0;
+}
+
+header nav ul li a {
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: normal;
+border-radius: 5px;
+transition: background-color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+background-color: #333;
+color: #fff;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+h2 {
+	padding-left: 12%;
+	font-size: 25px;
+}
+
+.product-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-item {
+    width: 330px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.product-item img {
+    max-width: 100%;
+}
+
+.product-details {
+    display: none;
+    width: 60%;
+    margin-left: 50px;
+    padding-right: 150px;
+    
+}
+
+.product-details img {
+    max-width: 100%;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+  
+.product-details button {
+position:relative;
+vertical-align: top;
+color: rgb(0, 0, 0);
+display: inline-block;
+height: 40px;
+line-height: 40px;
+text-align: top;
+transition: 0.5s;
+padding: 0 20px;
+cursor: pointer;
+border: 2px solid rgb(0, 0, 0);
+-webkit-transition:0.5s;
+border-radius: 10px;
+}
+
+.product-details button:hover {
+border: 1px solid rgba(0,160,80,0);
+color: rgb(0, 0, 0);
+}
+
+.product-details button::before, .product-details button::after {
+width: 100%;
+height:100%;
+z-index: 3;
+content:'';
+position: absolute;
+top:0;
+left:0;
+box-sizing: border-box;
+-webkit-transform: scale(0);
+transition: 0.3s;
+}
+
+.product-details button::before {
+border-bottom: 3px solid rgb(255, 255, 255);
+border-left: 0;
+-webkit-transform-origin: 0% 100%;
+}
+
+.product-details button::after {
+border-top: 0;
+border-right: 0;
+-webkit-transform-origin: 50% 50%;
+}
+
+.product-details button:hover::after, .product-details button:hover::before {
+-webkit-transform: scale(1);
+}
+
+.panel {
+    border: 1px solid rgb(0, 0, 0);
+  }
+.panel2 {
+    border: 1px solid rgb(0, 0, 0);
+  }
+.panel3 {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+.panel-header {
+    padding: 10px;
+    background-color: #000000;
+    cursor: pointer;
+    
+  }
+.panel-header img{
+float: right;
+height: 12px;
+vertical-align: middle;
+padding-right: 2px;
+  }
+  
+.panel-content {
+    padding: 10px;
+    display: none;
+  }
+.panel-content2 {
+padding: 10px;
+display: none;
+}
+.panel-content3 {
+padding: 10px;
+display: none;
+}
+
+hr{
+    height:1px;
+    border:none;
+    color:rgb(255, 255, 255);
+    background-color:#333;
+}
+
+
+.container2{
+    max-width: 1000px;
+	margin:auto;
+}
+.row1{
+	display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 100%;
+    padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+
+}
+
+
+.footer-col .social-links a img{
+    align-items:center;
+    vertical-align:middle;
+    height:25px;
+}
+
+.footer-col .social-links a img:hover{
+    vertical-align: top;
+}
